@@ -152,6 +152,6 @@ lowerAndGreater :: Int -> [Int] -> String
 lowerAndGreater n list = 
     let (a,b) = helper n list 
     in show n ++ " is greater than " ++ 
-        show a ++ " and lower than " ++ 
+        show a ++ " elements and lower than " ++ 
             show b ++ " elements"
 
